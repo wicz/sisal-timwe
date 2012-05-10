@@ -4,9 +4,9 @@ require File.expand_path("../lib/sisal-timwe/version", __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Vinicius Horewicz"]
   gem.email         = ["vinicius@horewi.cz"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Timwe provider for Sisal}
+  gem.summary       = %q{Timwe provider for Sisal}
+  gem.homepage      = "https://github.com/wicz/sisal-timwe"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
