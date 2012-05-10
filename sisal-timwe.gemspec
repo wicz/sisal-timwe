@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Sisal::Timwe::VERSION
 
-  # gem.add_dependency "sisal",       "~> 0.0"
+  gem.add_dependency "sisal",       "~> 0.0.1"
   gem.add_dependency "rest-client", "~> 1.6"
 
   gem.add_development_dependency "rspec",   "~> 2.8"
